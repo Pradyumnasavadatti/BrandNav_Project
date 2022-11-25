@@ -1,0 +1,33 @@
+@import "../../style/style.scss";
+
+.class1 {
+  color: $red2;
+  background-color: white;
+  border: 0.2vmax solid $red2;
+  border-radius: 5vmax;
+  transition: 0.5s all;
+  @include fontStyle;
+  cursor: pointer;
+  &:hover {
+    color: white;
+    background-color: $red2;
+  }
+}
+
+.class2 {
+  color: $black;
+  @include fontStyle;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.class3 {
+  @include fontStyle;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  background-color: $red;
+  border-radius: 0.5vmax;
+  box-shadow: 0 1vh 30px -5px $red;
+}

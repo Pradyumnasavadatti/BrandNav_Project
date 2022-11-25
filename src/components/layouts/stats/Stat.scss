@@ -1,0 +1,60 @@
+@import "../../../style/style.scss";
+#statContainer {
+  width: 100%;
+  height: 20vh;
+  @include rowFlex;
+  #statSubContainer {
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 15px 20px 30px -30px $lightGray;
+    @include rowFlex;
+    justify-content: space-evenly;
+    #statDiv {
+      width: 25%;
+      height: 90%;
+      @include rowFlex;
+      justify-content: space-between;
+      #statIcon {
+        width: 47%;
+        height: 100%;
+        @include rowFlex;
+        justify-content: flex-end;
+        #statIc {
+          width: 4vw;
+          height: 4vw;
+          background-color: $lightRed;
+          border-radius: 50%;
+          background-color: aliceblue;
+          @include rowFlex;
+        }
+      }
+      #statFacts {
+        width: 47%;
+        height: 100%;
+        @include rowFlex;
+        justify-content: flex-start;
+        #statFactsSub {
+          width: fit-content;
+          height: fit-content;
+          #statHead {
+            color: $black;
+            @include fontStyle;
+            font-size: 1.8vmax;
+          }
+          #statSubHead {
+            color: $black;
+            @include fontStyle;
+            font-size: 1.2vmax;
+            color: gray;
+          }
+        }
+      }
+    }
+    #statLine {
+      width: 0.2vw;
+      height: 70%;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+$red: #f53838;
+$red2: #f53855;
+$black: #0b132a;
+$gray: #4f5665;
+$lightRed: #ffecec;
+$lightGray: hsl(219, 12%, 72%);
+$fontFamily: "Rubik";
+
+@mixin fontStyle {
+  font-family: $fontFamily;
+  font-size: 1.3vmax;
+  font-weight: bolder;
+}
+
+@mixin rowFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

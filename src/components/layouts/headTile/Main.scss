@@ -1,0 +1,59 @@
+@import "../../../style/style.scss";
+
+#headContainer {
+  width: 100%;
+
+  height: 65vh;
+  background-color: white;
+  @include rowFlex;
+  #headSubContainer {
+    width: 85%;
+    height: 90%;
+    @include rowFlex;
+    #headContent {
+      width: 50%;
+      height: 100%;
+      #headHeading {
+        width: 100%;
+        height: 40%;
+        font-size: 3.6vmax;
+        font-style: $fontFamily;
+        p {
+          margin: 0%;
+        }
+      }
+      #headPara {
+        width: 100%;
+        height: 10%;
+        color: $gray;
+        @include fontStyle;
+        font-size: 1.2vw;
+        p {
+          margin: 0%;
+        }
+      }
+      #headButton {
+        width: 100%;
+        height: 40%;
+        @include rowFlex;
+        justify-content: flex-start;
+      }
+    }
+    #headImg {
+      width: 50%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      #headImg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #headImg {
+    background-color: black;
+  }
+}
