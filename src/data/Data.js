@@ -151,14 +151,16 @@ const networks = {
 };
 
 const platforms = {
-  img: [Netflix, Reddit, Amazon, Discord, Spotify],
+  img: [Netflix, Reddit, Discord, Spotify],
 };
 
-const Reviews = {
+const reviews = {
+  heading: "Trusted by Thousands of Happy Customer",
+  para: "These are the stories of our customers who have joined us with great pleasure when using this crazy feature.",
   svg: (
     <svg
-      width="8"
-      height="6"
+      width="40%"
+      height="40%"
       viewBox="0 0 8 6"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -169,30 +171,80 @@ const Reviews = {
       />
     </svg>
   ),
-  user1: {
-    img: [User1],
-    name: "Viezh Robert",
-    place: "Warsaw, Poland",
-    rating: "4.5",
-    review:
-      "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-  },
-  user2: {
-    img: [User2],
-    name: "Yessica Christy",
-    place: "Shanxi, China",
-    rating: "4.5",
-    review:
-      "I like it because I like to travel far and still can connect with high speed.",
-  },
-  user3: {
-    img: [User3],
-    name: "Kim Young Jou",
-    place: "Seoul, South Korea",
-    rating: "4.5",
-    review:
-      "This is very unusual for my business that currently requires a virtual private network that has high security.",
-  },
+  user: [
+    {
+      img: [User1],
+      name: "Viezh Robert",
+      place: "Warsaw, Poland",
+      rating: "4.5",
+      review:
+        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+    },
+    {
+      img: [User2],
+      name: "Yessica Christy",
+      place: "Shanxi, China",
+      rating: "4.5",
+      review:
+        "I like it because I like to travel far and still can connect with high speed.",
+    },
+    {
+      img: [User3],
+      name: "Kim Young Jou",
+      place: "Seoul, South Korea",
+      rating: "4.5",
+      review:
+        "This is very unusual for my business that currently requires a virtual private network that has high security.",
+    },
+    {
+      img: [User1],
+      name: "Viezh Robert",
+      place: "Warsaw, Poland",
+      rating: "4.5",
+      review:
+        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+    },
+    {
+      img: [User2],
+      name: "Yessica Christy",
+      place: "Shanxi, China",
+      rating: "4.5",
+      review:
+        "I like it because I like to travel far and still can connect with high speed.",
+    },
+    {
+      img: [User3],
+      name: "Kim Young Jou",
+      place: "Seoul, South Korea",
+      rating: "4.5",
+      review:
+        "This is very unusual for my business that currently requires a virtual private network that has high security.",
+    },
+    {
+      img: [User1],
+      name: "Viezh Robert",
+      place: "Warsaw, Poland",
+      rating: "4.5",
+      review:
+        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+    },
+    {
+      img: [User2],
+      name: "Yessica Christy",
+      place: "Shanxi, China",
+      rating: "4.5",
+      review:
+        "I like it because I like to travel far and still can connect with high speed.",
+    },
+    {
+      img: [User3],
+      name: "Kim Young Jou",
+      place: "Seoul, South Korea",
+      rating: "4.5",
+      review:
+        "This is very unusual for my business that currently requires a virtual private network that has high security.",
+    },
+  ],
 };
 
 const subscribe = {
@@ -231,7 +283,7 @@ export {
   plans,
   networks,
   platforms,
-  Reviews,
+  reviews,
   subscribe,
   footer,
 };

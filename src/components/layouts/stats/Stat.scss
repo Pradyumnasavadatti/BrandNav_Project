@@ -2,6 +2,7 @@
 #statContainer {
   width: 100%;
   height: 20vh;
+  background-color: white;
   @include rowFlex;
   #statSubContainer {
     width: 70%;

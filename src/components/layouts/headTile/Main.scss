@@ -2,13 +2,14 @@
 
 #headContainer {
   width: 100%;
-
   height: 65vh;
-  background-color: white;
+  z-index: 10;
   @include rowFlex;
   #headSubContainer {
     width: 85%;
     height: 90%;
+    background-color: white;
+    z-index: 10;
     @include rowFlex;
     #headContent {
       width: 50%;

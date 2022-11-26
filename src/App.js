@@ -6,6 +6,7 @@ import Features from "./components/layouts/features/Feature";
 import Plan from "./components/layouts/plans/Plan";
 import Network from "./components/layouts/networks/Network";
 import Platform from "./components/layouts/platform/Platform";
+import Review from "./components/layouts/review/Review";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Plan />
       <Network />
       <Platform />
+      <Review />
     </div>
   );
 }
