@@ -19,7 +19,13 @@ import Twitter from "../resources/part10/Twitter.svg";
 const navbar = {
   img: [Logo],
   options: ["About", "Features", "Pricing", "Testimonials", "Help"],
-  //   optionAction: ["www.google.com", "www.wikipedia.org"],
+  optionAction: [
+    "#headContainer",
+    "#featureContainer",
+    "#plan",
+    "#review",
+    "#footer",
+  ],
   buttons: ["Sign In", "Sign up"],
 };
 
@@ -263,16 +269,18 @@ const footer = {
   ),
   copyRight: "©2020LaslesVPN",
   head: ["Product", "Engage", "Earn Money"],
-  points:[["Download", "Pricing", "Locations", "Server", "Countries", "Blog"],
-  [
-    "LaslesVPN ?",
-    "FAQ",
-    "Tutorials",
-    "About Us",
-    "Privacy Policy",
-    "Terms of Service",
+  points: [
+    ["Download", "Pricing", "Locations", "Server", "Countries", "Blog"],
+    [
+      "LaslesVPN ?",
+      "FAQ",
+      "Tutorials",
+      "About Us",
+      "Privacy Policy",
+      "Terms of Service",
+    ],
+    ["Affiliate", "Become Partner"],
   ],
-  ["Affiliate", "Become Partner"]],
 };
 
 export {

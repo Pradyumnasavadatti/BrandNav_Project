@@ -97,7 +97,9 @@
             #planPriceHead {
               width: 100%;
               height: 40%;
-              font-size: 1.5vmax;
+              @include fontStyle;
+              font-weight: bolder;
+              font-size: 1.8vmax;
               @include rowFlex;
             }
           }

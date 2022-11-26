@@ -7,7 +7,9 @@ export default function Options() {
       {navbar.options.map((value, index) => {
         return (
           <div key={`${index}${value}`} id="opt">
-            <span id="navtxt">{value}</span>
+            <a id="navtxt" href={`${navbar.optionAction[index]}`}>
+              {value}
+            </a>
           </div>
         );
       })}
