@@ -7,6 +7,8 @@ import Plan from "./components/layouts/plans/Plan";
 import Network from "./components/layouts/networks/Network";
 import Platform from "./components/layouts/platform/Platform";
 import Review from "./components/layouts/review/Review";
+import Subscribe from "./components/layouts/subscribe/Subscribe";
+import Footer from "./components/layouts/footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
       <Network />
       <Platform />
       <Review />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }

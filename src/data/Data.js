@@ -263,8 +263,8 @@ const footer = {
   ),
   copyRight: "©2020LaslesVPN",
   head: ["Product", "Engage", "Earn Money"],
-  product: ["Download", "Pricing", "Locations", "Server", "Countries", "Blog"],
-  engage: [
+  points:[["Download", "Pricing", "Locations", "Server", "Countries", "Blog"],
+  [
     "LaslesVPN ?",
     "FAQ",
     "Tutorials",
@@ -272,7 +272,7 @@ const footer = {
     "Privacy Policy",
     "Terms of Service",
   ],
-  earn: ["Affiliate", "Become Partner"],
+  ["Affiliate", "Become Partner"]],
 };
 
 export {
